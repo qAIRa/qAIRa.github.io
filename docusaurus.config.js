@@ -1,12 +1,12 @@
 module.exports = {
-  title: 'My Site',
+  title: 'Documentation-OpenSource',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://qaira.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'qAIRa', // Usually your GitHub org/user name.
+  projectName: 'qAIRa.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
