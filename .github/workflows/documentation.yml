@@ -1,4 +1,4 @@
-name: documentation
+name: master
 
 on:
   pull_request:
