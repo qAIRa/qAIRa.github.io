@@ -42,14 +42,14 @@ jobs:
           echo "${{ secrets.GH_PAGES_DEPLOY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           cat <<EOT >> ~/.ssh/config
-          Host github.com
+          Host Github
           HostName github.com
           IdentityFile ~/.ssh/id_rsa
           EOT
       - name: Release to GitHub Pages
         env:
           USE_SSH: true
-          GIT_USER: SabCampos
+          GIT_USER: git
         run: |
           git config --global user.email "s.campos@qairadrones.com"
           git config --global user.name "SabCampos"
