@@ -7,8 +7,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'qAIRa', // Usually your GitHub org/user name.
   projectName: 'qAIRa.github.io', // Usually your repo name.
-  GIT_USER: 'SabCampos',
-  CURRENT_BRANCH: 'master',
   themeConfig: {
     navbar: {
       title: 'My Site',
