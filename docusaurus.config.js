@@ -1,12 +1,12 @@
 module.exports = {
   title: 'Documentation-OpenSource',
   tagline: 'The tagline of my site',
-  url: 'https://github.com/qAIRa',
-  baseUrl: '/',
+  url: ' https://qaira.github.io/',
+  baseUrl: '/Documentation-OpenSource/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'qAIRa', // Usually your GitHub org/user name.
-  projectName: 'Documentation-OpenSource', // Usually your repo name.
+  projectName: 'https://qaira.github.io/', // Usually your repo name.
   // themeConfig: {
   //   navbar: {
   //     title: 'My Site',
