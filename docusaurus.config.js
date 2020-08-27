@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'The tagline of my site',
   url: 'https://qaira.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'qAIRa', // Usually your GitHub org/user name.
   projectName: 'Documentation-OpenSource', // Usually your repo name.
@@ -89,13 +89,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/qAIRa/Documentation-OpenSource',
+            'https://github.com/qAIRa',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/qAIRa/Documentation-OpenSource',
+            'https://github.com/qAIRa',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
