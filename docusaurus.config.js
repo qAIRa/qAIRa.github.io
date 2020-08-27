@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Documentation-OpenSource',
+  // title: 'Documentation-OpenSource',
   tagline: 'The tagline of my site',
   url: 'https://github.com/qAIRa',
   baseUrl: '/',
