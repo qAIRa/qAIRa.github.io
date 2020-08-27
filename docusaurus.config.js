@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'qAIRa', // Usually your GitHub org/user name.
-  // projectName: 'Documentation-OpenSource', // Usually your repo name.
+  projectName: 'Documentation-OpenSource', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
@@ -89,13 +89,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/qAIRa',
+            'https://github.com/qAIRa/Documentation-OpenSource',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/qAIRa',
+            'https://github.com/qAIRa/Documentation-OpenSource',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
