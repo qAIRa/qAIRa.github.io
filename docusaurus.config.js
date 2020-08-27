@@ -2,11 +2,13 @@ module.exports = {
   title: 'Documentation-OpenSource',
   tagline: 'The tagline of my site',
   url: 'https://qAIRa.github.io',
-  baseUrl: '/',
+  baseUrl: '/qAIRa.github.io/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'qAIRa', // Usually your GitHub org/user name.
-  projectName: 'Documentation-OpenSource', // Usually your repo name.
+  projectName: 'qAIRa.github.io', // Usually your repo name.
+  GIT_USER: 'SabCampos',
+  CURRENT_BRANCH: 'master',
   themeConfig: {
     navbar: {
       title: 'My Site',
@@ -79,10 +81,6 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
-  plugins: [
-    '@docusaurus/plugin-content-blog',
-    '@docusaurus/plugin-content-pages',
-  ],
   presets: [
     [
       '@docusaurus/preset-classic',
