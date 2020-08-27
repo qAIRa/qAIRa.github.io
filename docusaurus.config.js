@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Documentation-OpenSource',
   tagline: 'The tagline of my site',
-  url: ' https://qaira.github.io/',
+  url: ' https://github.com/qAIRa/Documentation-OpenSource/',
   baseUrl: '/Documentation-OpenSource/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
