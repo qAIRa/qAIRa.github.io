@@ -9,12 +9,12 @@ on:
 jobs:
   checks:
     if: github.event_name != 'push'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04.5
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
-          node-version: '14.x'
+          node-version: '14.3.0'
       - name: Test Build
         run: |
           if [ -e yarn.lock ]; then
@@ -27,12 +27,12 @@ jobs:
           npm run build
   gh-release:
     if: github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04.5
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
-          node-version: '14.x'
+          node-version: '14.3.0'
       - name: QAIRA
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
