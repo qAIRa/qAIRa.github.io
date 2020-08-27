@@ -1,4 +1,4 @@
-name: documentation
+name: DOCUMENTATION
 
 on:
   pull_request:
@@ -49,10 +49,10 @@ jobs:
       - name: Release to GitHub Pages
         env:
           USE_SSH: true
-          GIT_USER: SabCampos
+          GIT_USER: qairaowner
         run: |
-          git config --global user.email "s.campos@qairadrones.com"
-          git config --global user.name "SabCampos"
+          git config --global user.email "software@qairadrones.com"
+          git config --global user.name "qairaowner"
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
