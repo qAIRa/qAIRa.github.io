@@ -54,6 +54,8 @@ jobs:
         env:
           USE_SSH: true
           GIT_USER: SabCampos
+          DEPLOYMENT_BRANCH: documentation
+          CURRENT_BRANCH: documentation
         run: |
           git config --global user.email "s.campos@qairadrones.com"
           git config --global user.name "SabCampos"
