@@ -21,10 +21,16 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+//        {
+//          to: "docs/API_documentation/",
+//          label: "API",
+//          position: "left",
+//        },
         {
-          to: "docs/API_documentation/APIdoc1",
-          label: "API",
-          position: "left",
+          to: 'resources/',
+          activeBasePath: 'resources',
+          label: 'API',
+          position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
@@ -105,6 +111,20 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'doc2',
+        homePageId: 'companyMod',
+        path:'./resources',
+        routeBasePath: 'resources',
+  //      include: ['**/*.md'],
+        sidebarPath: require.resolve('./sidebarsResources.js'),
+        disableVersioning: true,
       },
     ],
   ],

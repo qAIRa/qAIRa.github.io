@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: APIdoc1
 title: Business
 sidebar_label: Business
 ---
@@ -321,7 +321,7 @@ Sets qHAWAX OFF in qHAWAX table.
 
 #### <Highlight color="#b2e4f7">post_business_helper.saveStatusOffQhawaxInstallationTable(qhawax_name,qhawax_lost_timestamp)</Highlight>
 
-Sets qHAWAX OFF in qHAWX Installation table.
+Sets qHAWAX OFF in qHAWAX Installation table.
 
 >Parameters
 
