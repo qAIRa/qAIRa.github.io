@@ -6,6 +6,13 @@ sidebar_label: Processed Measurement Module
 
 The file shows the functions that register and request data related to the Processed Measurement table.
 
+export const Highlight = ({children, color}) => ( <span style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#000000',
+      padding: '0.2rem',
+    }}>{children}</span> );
+
 #### <Highlight color="#b2e4f7">processed_measurement.getProcessedData()</Highlight>
 
 Lists all measurement of processed measurement table record the last N minutes.

@@ -6,6 +6,13 @@ sidebar_label: Valid Processed Measurement Module
 
 The file shows the functions that register and request data related to the Valid Processed Measurement table.
 
+export const Highlight = ({children, color}) => ( <span style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#000000',
+      padding: '0.2rem',
+    }}>{children}</span> );
+
 #### <Highlight color="#b2e4f7">valid_processed_measurement.getValidProcessedMeasurementsTimePeriod()</Highlight>
 
 Lists all measurements of valid processed measurement table in a define period of time and company
