@@ -21,6 +21,12 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        {
+          to: 'docs/',
+          activeBasePath: 'API_documentation',
+          label: 'API',
+          position: 'left'
+        },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -87,6 +93,14 @@ module.exports = {
           // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: 'doc1',
           sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/qAIRa/Documentation-OpenSource',
+        },
+        API_documentation: {
+          // It is recommended to set document id as docs home page (`docs/` path).
+          homePageId: 'doc2',
+          sidebarPath: require.resolve('./sidebarsAPI.js'),
           // Please change this to your repo.
           editUrl:
             'https://github.com/qAIRa/Documentation-OpenSource',
