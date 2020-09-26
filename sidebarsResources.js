@@ -1,5 +1,5 @@
 module.exports = {
-  resources:{
+  APIresources:{
     Business:['companyMod','eca_noiseMod','gas_sensorMod',
               'get_business_helperMod','post_business_helperMod',
               'qhawaxMod','qhawax_installation_historyMod'

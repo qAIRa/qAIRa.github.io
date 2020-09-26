@@ -27,8 +27,8 @@ module.exports = {
 //          position: "left",
 //        },
         {
-          to: 'resources/',
-          activeBasePath: 'resources',
+          to: 'APIresources/',
+          activeBasePath: 'APIresources',
           label: 'API',
           position: 'left',
         },
@@ -118,10 +118,10 @@ module.exports = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'doc2',
+        id: 'companyMod',
         homePageId: 'companyMod',
-        path:'./resources',
-        routeBasePath: 'resources',
+        path:'./APIresources',
+        routeBasePath: 'APIresources',
   //      include: ['**/*.md'],
         sidebarPath: require.resolve('./sidebarsResources.js'),
         disableVersioning: true,
