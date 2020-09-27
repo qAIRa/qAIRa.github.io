@@ -27,12 +27,7 @@ module.exports = {
           label: 'API',
           position: 'left',
         },
-        {
-          to: 'WEBresources/',
-          activeBasePath: 'WEBresources',
-          label: 'WEB',
-          position: 'left',
-        },
+
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/qAIRa',
@@ -50,10 +45,6 @@ module.exports = {
             {
               label: 'API Guide',
               to: 'APIresources/',
-            },
-            {
-              label: 'WEB Guide',
-              to: 'WEBresources/',
             },
           ],
         },
@@ -99,14 +90,6 @@ module.exports = {
           // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: 'doc1',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/qAIRa/Documentation-OpenSource',
-        },
-        WEB: {
-          // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'example',
-          sidebarPath: require.resolve('./sidebarsWEB.js'),
           // Please change this to your repo.
           editUrl:
             'https://github.com/qAIRa/Documentation-OpenSource',
