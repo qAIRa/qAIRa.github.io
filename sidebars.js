@@ -1,7 +1,6 @@
 module.exports = {
   Docs: {
-    //API: ['doc1', 'doc2', 'doc3'],
-    Modules:['doc1','doc2','doc3'],
+    Basics:['doc1','doc2'],
     Features: ['mdx'],
   },
 };

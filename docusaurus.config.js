@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Documentation-OpenSource',
-  tagline: 'The tagline of my site',
+  title: 'Documentation for qAIRaMap and qAIRaMapAPI',
+  tagline: 'Know your air, become the change.',
   url: 'https://qAIRa.github.io',
   baseUrl: '/qAIRa.github.io/',
   onBrokenLinks: 'throw',
@@ -9,10 +9,10 @@ module.exports = {
   projectName: 'qAIRa.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Home',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/qairito_buena.gif',
       },
       items: [
         {
@@ -21,20 +21,21 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-//        {
-//          to: "docs/API_documentation/",
-//          label: "API",
-//          position: "left",
-//        },
         {
           to: 'APIresources/',
           activeBasePath: 'APIresources',
           label: 'API',
           position: 'left',
         },
+        {
+          to: 'WEBresources/',
+          activeBasePath: 'WEBresources',
+          label: 'WEB',
+          position: 'left',
+        },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/qAIRa',
           label: 'GitHub',
           position: 'right',
         },
@@ -44,15 +45,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentation',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'API Guide',
+              to: 'APIresources/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'WEB Guide',
+              to: 'WEBresources/',
             },
           ],
         },
@@ -60,16 +61,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/qaira_drones/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Slack',
+              href: 'https://join.slack.com/t/qaira-publico/shared_invite/zt-e49w6375-9_vVmPdf8nFvXWfIvkagxw',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/qAIRadrones/',
             },
           ],
         },
@@ -82,12 +83,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/qAIRa',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} qAIRa, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -102,6 +103,15 @@ module.exports = {
           editUrl:
             'https://github.com/qAIRa/Documentation-OpenSource',
         },
+        WEB: {
+          // It is recommended to set document id as docs home page (`docs/` path).
+          homePageId: 'example',
+          sidebarPath: require.resolve('./sidebarsWEB.js'),
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/qAIRa/Documentation-OpenSource',
+        },
+        
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
