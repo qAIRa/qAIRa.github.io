@@ -2,7 +2,7 @@ module.exports = {
   title: 'Documentation for qAIRaMap and qAIRaMapAPI',
   tagline: 'Know your air, become the change.',
   url: 'https://qAIRa.github.io',
-  baseUrl: '/qAIRa.github.io/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'qAIRa', // Usually your GitHub org/user name.
@@ -27,8 +27,12 @@ module.exports = {
           label: 'API',
           position: 'left',
         },
-
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to: 'WEBresources/',
+          activeBasePath: 'WEBresources',
+          label: 'WEB',
+          position: 'left',
+        },
         {
           href: 'https://github.com/qAIRa',
           label: 'GitHub',
@@ -69,10 +73,6 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/qAIRa',
             },
@@ -94,13 +94,6 @@ module.exports = {
           editUrl:
             'https://github.com/qAIRa/Documentation-OpenSource',
         },
-        
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/qAIRa/Documentation-OpenSource',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -117,6 +110,18 @@ module.exports = {
         routeBasePath: 'APIresources',
   //      include: ['**/*.md'],
         sidebarPath: require.resolve('./sidebarsResources.js'),
+        disableVersioning: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'example',
+        homePageId: 'example',
+        path:'./WEBresources',
+        routeBasePath: 'WEBresources',
+      //  include: ['**/*.md'],
+        sidebarPath: require.resolve('./sidebars2.js'),
         disableVersioning: true,
       },
     ],

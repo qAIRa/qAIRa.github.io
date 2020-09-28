@@ -34,12 +34,21 @@ const features = [
       </>
     ),
   },
+  {
+    title: <>Andean Drone</>,
+    imageUrl: 'img/andeanDrone.png',
+    description: (
+      <>
+        Our Andean Drone has all the same characteristics of our qHAWAX with the advantage of flight.
+      </>
+    ),
+  },
 ];
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--3', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
