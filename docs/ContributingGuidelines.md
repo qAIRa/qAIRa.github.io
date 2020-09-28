@@ -20,7 +20,12 @@ Issues are very valuable to this project!
 
 * With a question you show where contributors can improve the user experience and our expertise in projects.
 
-Thank you for creating them [here](https://github.com/qAIRa/qAIRa.github.io/issues).
+
+Thank you for creating them.
+
+Post an issue for the **API** [here](https://github.com/qAIRa/qAIRaMapAPI-OpenSource/issues).
+
+Post an issue for the **WEB** [here](https://github.com/qAIRa/qAIRaMap-OpenSource/issues).
 
 ## Pull Requests
 
@@ -35,3 +40,7 @@ Pull requests are a great way to get your ideas into this repository. Make sure 
 * Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent.
 
 * You may merge the Pull Request in once you have the sign-off of a developer, or if you do not have permission to do that, you may request the reviewer to merge it for you.
+
+Make a pull request for the **API** based on the template linked [here](https://github.com/qAIRa/qAIRaMapAPI-OpenSource/blob/master/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md).
+
+Make a pull request for the **WEB** based on the template linked [here](https://github.com/qAIRa/qAIRaMap-OpenSource/blob/master/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md).
