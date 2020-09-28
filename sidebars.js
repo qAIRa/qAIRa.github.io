@@ -1,6 +1,6 @@
 module.exports = {
   Docs: {
-    Basics:['doc1','doc2'],
+    Basics:['contributing_guidelines','doc1','doc2'],
     Features: ['mdx'],
   },
 };

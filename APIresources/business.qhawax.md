@@ -13,7 +13,7 @@ export const Highlight = ({children, color}) => ( <span style={{
       padding: '0.2rem',
     }}>{children}</span> );
 
-#### <Highlight color="#b2e4f7">qhawax.getIncaQhawaxInca</Highlight>
+#### <Highlight color="#b2e4f7">qhawax.getIncaQhawaxInca()</Highlight>
 
 Gets qHAWAX Inca value.
 

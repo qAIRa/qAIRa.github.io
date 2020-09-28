@@ -88,13 +88,13 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
+          homePageId: 'contributing_guidelines',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
             'https://github.com/qAIRa/Documentation-OpenSource',
         },
-        
+
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
