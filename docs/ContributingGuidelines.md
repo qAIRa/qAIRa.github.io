@@ -10,7 +10,7 @@ We welcome any contributors that would like to improve this repository!
 
 When contributing to this repository, please first explain the change you wish to make via pull requests. For those getting started, GitHub has tutorials which you can visit [here](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-Please note that we have a [code of conduct](http://localhost:3000/qAIRa.github.io/docs/doc1), please follow it in all your interactions with the project.
+Please note that we have a [Code of Conduct](http://localhost:3000/qAIRa.github.io/docs/doc1), please follow it in all your interactions with the project.
 
 ## Get Involved
 
@@ -32,6 +32,6 @@ Pull requests are a great way to get your ideas into this repository. Make sure 
 
 * Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
 
-* Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is SemVer.
+* Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent.
 
 * You may merge the Pull Request in once you have the sign-off of a developer, or if you do not have permission to do that, you may request the reviewer to merge it for you.

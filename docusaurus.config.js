@@ -94,16 +94,7 @@ module.exports = {
           editUrl:
             'https://github.com/qAIRa/Documentation-OpenSource',
         },
-<<<<<<< HEAD
 
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/qAIRa/Documentation-OpenSource',
-        },
-=======
->>>>>>> 26025195769bb8fe4cd0da4ad219983d2b4d4d15
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
