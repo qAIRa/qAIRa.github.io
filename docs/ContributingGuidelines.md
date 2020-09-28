@@ -10,7 +10,7 @@ We welcome any contributors that would like to improve this repository!
 
 When contributing to this repository, please first explain the change you wish to make via pull requests. For those getting started, GitHub has tutorials which you can visit [here](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-Please note that we have a [Code of Conduct](http://localhost:3000/qAIRa.github.io/docs/doc1), please follow it in all your interactions with the project.
+Please note that we have a [Code of Conduct](https://qaira.github.io/docs/doc1), please follow it in all your interactions with the project.
 
 ## Get Involved
 
