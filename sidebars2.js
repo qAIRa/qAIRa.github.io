@@ -1,6 +1,9 @@
 module.exports = {
   WEBresources: {
-    Basics:['fromJsonToCsv','infowindows','navBarClient','pickerErrors','viewController'],
+    Libs:['fromJsonToCsv','infowindows','navBarClient','pickerErrors','viewController'],
+
+        Views: ['dashboardView','downloadView','freeMapView','graphicsView','landpageView'],
+
   
   }
 };
