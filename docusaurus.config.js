@@ -117,8 +117,8 @@ module.exports = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'example',
-        homePageId: 'example',
+        id: 'fromJsonToCsv',
+        homePageId: 'fromJsonToCsv',
         path:'./WEBresources',
         routeBasePath: 'WEBresources',
       //  include: ['**/*.md'],

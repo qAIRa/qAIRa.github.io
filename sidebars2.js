@@ -1,6 +1,6 @@
 module.exports = {
   WEBresources: {
-    Basics:['example'],
+    Basics:['fromJsonToCsv','infowindows','navBarClient','pickerErrors','viewController'],
   
   }
 };
