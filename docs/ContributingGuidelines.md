@@ -4,6 +4,10 @@ title: Contributing Guidelines
 sidebar_label: Contributing Guidelines
 ---
 
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+
+Please note we have a code of conduct, please follow it in all your interactions with the project.
+
 ## Contributor License Agreements
 
 We welcome any contributors that would like to improve this repository!
@@ -16,10 +20,13 @@ Please note that we have a [Code of Conduct](https://qaira.github.io/docs/doc1),
 
 Issues are very valuable to this project!
 
-* Ideas are a valuable source of contributions others can make. A project is never finished because there will always be a way in which it can be improved. The problems you find will show what the project is lacking.
+* Ideas are a valuable source of contributions others can make.
 
-* With a question you show where contributors can improve the user experience and our expertise in projects.
+* A project is never finished because there will always be a way in which it can be improved.
 
+* The problems you find will show what the project is lacking.
+
+* With a question, you show where contributors can improve the user experience and our expertise in projects.
 
 Thank you for creating them.
 
@@ -27,7 +34,7 @@ Post an issue for the **API** [here](https://github.com/qAIRa/qAIRaMapAPI-OpenSo
 
 Post an issue for the **WEB** [here](https://github.com/qAIRa/qAIRaMap-OpenSource/issues).
 
-## Pull Requests
+## Pull Request Process
 
 Pull requests are a great way to get your ideas into this repository. Make sure you follow the next steps:
 
