@@ -88,7 +88,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'contributing_guidelines',
+          homePageId: 'contributingGuidelines',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
@@ -111,7 +111,7 @@ module.exports = {
         routeBasePath: 'APIresources',
   //      include: ['**/*.md'],
         sidebarPath: require.resolve('./sidebarsResources.js'),
-        disableVersioning: true,
+        disableVersioning: false,
       },
     ],
     [
@@ -123,7 +123,7 @@ module.exports = {
         routeBasePath: 'WEBresources',
       //  include: ['**/*.md'],
         sidebarPath: require.resolve('./sidebars2.js'),
-        disableVersioning: true,
+        disableVersioning: false,
       },
     ],
   ],

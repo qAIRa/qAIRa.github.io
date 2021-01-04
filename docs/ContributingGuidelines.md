@@ -1,5 +1,5 @@
 ---
-id: contributing_guidelines
+id: contributingGuidelines
 title: Contributing Guidelines
 sidebar_label: Contributing Guidelines
 ---
