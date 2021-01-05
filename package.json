@@ -7,9 +7,8 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy docusaurus": "docusaurus deploy",
-    "serve": "docusaurus serve",
-    "deploy": "gh-pages-deploy -- 'Deployed to gh-pages'"
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.61",
@@ -30,21 +29,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages-deploy": "^0.5.1"
-  },
-  "gh-pages-deploy": {
-    "staticpath": "build",
-    "cname": "qAIRa",
-    "prep": [
-      "build-sass",
-      "optimize-img"
-    ],
-    "commit": "to gh-pages",
-    "post": [
-      "clean-source"
-    ],
-    "noprompt": false
   }
 }
