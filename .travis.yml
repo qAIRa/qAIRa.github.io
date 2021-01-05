@@ -11,3 +11,32 @@ script:
   - git config --global user.email "${GH_EMAIL}"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
   - yarn && GIT_USER="${GH_NAME}" npm run deploy
+
+language: node_js
+node_js:
+  - '12'
+cache:
+  yarn: true
+  directories:
+    - public
+    - .cache
+script:
+  - yarn build # Generate static HTML files
+
+# Here is the magic part
+deploy:
+  # Use Github pages deploy process
+  provider: pages
+  # Keep builded pages
+  skip-cleanup: true
+  # Directory where your generated files are located
+  local_dir: public
+  # Github security/auth token
+  github-token: $GH_TOKEN
+  # Incremental commit to keep old build/files from previous deployments
+  keep-history: true
+  # Git branch on which it should deploy (master, gh-pages, foo...)
+  target_branch: gh-pages
+  on:
+    # Which branch on commit/push will trigger deployment
+    branch: master
