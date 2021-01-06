@@ -1,6 +1,11 @@
 language: node_js
+os: linux
+dist: bionic
+strategy: git
 node_js:
-  - '12'
+  - 14
+install:
+  - npm install
 cache:
   yarn: true
   directories:
@@ -14,7 +19,7 @@ deploy:
   # Use Github pages deploy process
   provider: pages
   # Keep builded pages
-  skip_cleanup: true
+  cleanup: true
   # Directory where your generated files are located
   local_dir: public
   # Github security/auth token
