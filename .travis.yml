@@ -1,7 +1,6 @@
 language: node_js
 os: linux
 dist: bionic
-strategy: git
 node_js:
   - 14
 install:
@@ -16,9 +15,9 @@ script:
 
 # Here is the magic part
 deploy:
+  strategy: git
   provider: pages
-  skip_cleanup: true
-  github_token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
+  token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   local_dir: build
   on:
