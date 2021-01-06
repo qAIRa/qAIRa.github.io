@@ -14,13 +14,13 @@ deploy:
   # Use Github pages deploy process
   provider: pages
   # Keep builded pages
-  skip-cleanup: true
+  skip_cleanup: true
   # Directory where your generated files are located
   local_dir: public
   # Github security/auth token
-  github-token: $GH_TOKEN
+  token: $GH_TOKEN
   # Incremental commit to keep old build/files from previous deployments
-  keep-history: true
+  keep_history: true
   # Git branch on which it should deploy (master, gh-pages, foo...)
   target_branch: gh-pages
   on:
