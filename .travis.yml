@@ -12,22 +12,14 @@ cache:
     - public
     - .cache
 script:
-  - yarn build # Generate static HTML files
+  - npm run build # Generate static HTML files
 
 # Here is the magic part
 deploy:
-  # Use Github pages deploy process
   provider: pages
-  # Keep builded pages
-  cleanup: true
-  # Directory where your generated files are located
-  local_dir: public
-  # Github security/auth token
-  token: $GH_TOKEN
-  # Incremental commit to keep old build/files from previous deployments
+  skip_cleanup: true
+  github_token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
-  # Git branch on which it should deploy (master, gh-pages, foo...)
-  target_branch: gh-pages
+  local_dir: build
   on:
-    # Which branch on commit/push will trigger deployment
     branch: master
