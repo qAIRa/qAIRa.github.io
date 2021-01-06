@@ -1,0 +1,23 @@
+language: node_js
+os: linux
+dist: bionic
+node_js:
+  - 14
+install:
+  - npm install
+cache:
+  yarn: true
+  directories:
+    - public
+    - .cache
+script:
+  - npm run build # Generate static HTML files
+
+# Here is the magic part
+deploy:
+  strategy: git
+  provider: pages
+  token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
