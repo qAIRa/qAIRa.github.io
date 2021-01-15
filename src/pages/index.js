@@ -66,7 +66,7 @@ function Home() {
   return (
     <Layout
       title={`qAIRa ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Open Source documentation for qAIRa Drones. We act against the global problem of pollution by monitoring the quality of air continuously at anytime and anywhere.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
