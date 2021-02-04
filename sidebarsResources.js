@@ -8,5 +8,8 @@ module.exports = {
            'get_data_helperMod','post_data_helperMod','processed_measurementMod',
            'valid_processed_measurementMod'
           ],
+    Get: [
+        'gets', 'posts'
+      ],
   }
 };
