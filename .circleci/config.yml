@@ -1,0 +1,66 @@
+---
+# https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+
+workflows:
+  main:
+    jobs:
+      - lint
+      - build
+      - deploy:
+          filters:
+            branches:
+              only: master
+          requires:
+            - lint
+            - build
+
+jobs:
+
+  lint:
+    docker:
+      - image: cimg/ruby:2.7
+    steps:
+      - checkout
+      - run: gem install mdl
+      - run: mdl --config .mdlrc .
+
+  build:
+    docker:
+      - image: cimg/node:lts
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: qAIRa-node-{{ checksum "package-lock.json" }}
+      - run: npm install
+      - save_cache:
+          key: qAIRa-node-{{ checksum "package-lock.json" }}
+          paths:
+            - .cache
+            - public
+      - run: npm run build
+
+      - persist_to_workspace:
+          root: _site
+          paths:
+            - build/*
+
+  deploy:
+    docker:
+      - image: cibuilds/base:latest
+    steps:
+      # deploy.sh dependencies
+      - run: apk add rsync
+
+      # clone repo (required to access `.circleci/deploy.sh`)
+      - run: git clone https://github.com/qAIRa.github.io.git
+
+      # checkout generated html
+      - attach_workspace:
+          at: build
+
+      # deploy to production
+      - deploy:
+          name: Deploy to GitHub Pages
+          command: ./qAIRa.github.io/.circleci/deploy.sh

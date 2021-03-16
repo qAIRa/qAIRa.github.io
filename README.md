@@ -1,20 +1,16 @@
-<p align="center"> 
+# Website
 
 [![Build Status](https://travis-ci.org/qAIRa/qAIRa.github.io.svg?branch=master)](https://travis-ci.org/qAIRa/qAIRa.github.io)
 
-</p>
-
-# Website
-
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
-### Installation
+## Installation
 
 ```
 $ yarn
 ```
 
-### Local Development
+## Local Development
 
 ```
 $ yarn start
@@ -53,3 +49,8 @@ We suggest that you begin by typing:
 
   cd Documentation-OpenSource
   npm start
+
+
+## Legal notices and attributions
+
+* Uses [Circle CI implementation](https://github.com/FOSSRIT/people/tree/57100587ea79854f77087008b3bfd564a2ba79fb/.circleci) from [FOSSRIT/people](https://github.com/FOSSRIT/people) ([GPLv3](https://github.com/FOSSRIT/people/blob/57100587ea79854f77087008b3bfd564a2ba79fb/LICENSE.txt)).
