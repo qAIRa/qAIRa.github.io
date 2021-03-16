@@ -4,7 +4,7 @@ title: Information Windows
 sidebar_label: Information Windows
 ---
 
-*infowindows.js*
+`infowindows.js`
 
 This file shows the functions used to generate the information windows.
 

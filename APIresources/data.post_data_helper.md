@@ -91,7 +91,6 @@ Helper Processed Measurement function to insert Valid Processed Data.
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
-
 #### <Highlight color="#b2e4f7">post_data_helper.storeAirDailyQualityDataInDB(data)</Highlight>
 
 Helper Daily Air Measurement function to store air daily measurement.

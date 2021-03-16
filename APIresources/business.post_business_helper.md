@@ -6,13 +6,14 @@ sidebar_label: Post Business Helper Module
 
 The file shows the functions that register and request data related to the Post Business Helper table.
 
+```javascript
 export const Highlight = ({children, color}) => ( <span style={{
       backgroundColor: color,
       borderRadius: '2px',
       color: '#000000',
       padding: '0.2rem',
     }}>{children}</span> );
-
+```
 
 #### <Highlight color="#b2e4f7">post_business_helper.updateOffsetsFromProductID(qhawax_name, offsets)</Highlight>
 
@@ -64,7 +65,6 @@ Helper qHAWAX function to save main inca value in qHAWAX Installation table
 
 * **new_main_inca** (*integer*) - qHAWAX main inca
 
-
 #### <Highlight color="#b2e4f7">post_business_helper.saveStatusOffQhawaxTable(qhawax_name)</Highlight>
 
 Sets qHAWAX OFF in qHAWAX table.
@@ -82,7 +82,6 @@ Sets qHAWAX OFF in qHAWAX Installation table.
 * **qhawax_name** (*string*) - qHAWAX name
 
 * **qhawax_lost_timestamp** (*timestamp*) - qHAWAX last time off
-
 
 #### <Highlight color="#b2e4f7">post_business_helper.saveStatusOnTable(qhawax_name)</Highlight>
 
@@ -133,7 +132,6 @@ Saves End Work in Field.
 * **qhawax_id** (*integer*) - qHAWAX ID
 
 * **end_date** (*timestamp*) - qHAWAX installation end date
-
 
 #### <Highlight color="#b2e4f7">post_business_helper.setAvailableQhawax(qhawax_id)</Highlight>
 

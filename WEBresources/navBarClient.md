@@ -3,7 +3,8 @@ id: navBarClient
 title: Navigation Bar Client
 sidebar_label: Navigation Bar Client
 ---
-*navBarClient.js*
+
+`navBarClient.js`
 
 This file shows the function to be used in the creation of the main navigation bar.
 

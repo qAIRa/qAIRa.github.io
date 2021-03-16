@@ -12,15 +12,15 @@ sidebar_label: FAQs
 
 The Media Type is specified in header of request. The most basic media types the API supports are:
 
-*application/json*
+`application/json`
 
 Method fetch:
 
 ```json
-  body: JSON.stringify(data),
-  		headers: {
-  			'Content-Type': 'application/json',
-  		},
+    body: JSON.stringify(data),
+        headers: {
+            'Content-Type': 'application/json',
+        },
 ```
 
 Neither of these specify a version, so you will always get the current default JSON representation of resources.

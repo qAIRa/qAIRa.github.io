@@ -4,7 +4,7 @@ title: Picker Errors
 sidebar_label: Picker Errors
 ---
 
-*pickerErrors.js*
+`pickerErrors.js`
 
 This file shows the functions that return UI selection errors.
 

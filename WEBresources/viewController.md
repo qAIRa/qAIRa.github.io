@@ -4,7 +4,7 @@ title: View Controller
 sidebar_label: View Controller
 ---
 
-*viewController.js*
+`viewController.js`
 
 This file shows the functions to turn a .json file to a .csv file and downloads it.
 

@@ -41,7 +41,6 @@ Helper function to get the measurement records from a specific qHAWAX in a defin
 
 * **final_timestamp** (*timestamp with time zone*) - final date with time
 
-
 #### <Highlight color="#b2e4f7">get_data_helper.getTimeQhawaxHistory(installation_id)</Highlight>
 
 Helper function to get the last dates in which a qHAWAX has been turned on and turned off.
