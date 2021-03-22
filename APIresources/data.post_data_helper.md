@@ -17,7 +17,7 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 Helper function to store new records in Air Quality Measurement table.
 
-> Parameters
+**Parameters:**
 
 Json input of following Air Measurement fields:
 
@@ -69,7 +69,7 @@ Json input of following Air Measurement fields:
 
 Helper function to record GAS INCA measurement.
 
->Parameters
+**Parameters:**
 
 * **data** (*json*) - gas Inca measurement
 
@@ -77,7 +77,7 @@ Helper function to record GAS INCA measurement.
 
 Helper Processed Measurement function to store Processed Data.
 
->Parameters
+**Parameters:**
 
 * **data** (*json*) - Processed measurement detail
 
@@ -85,7 +85,7 @@ Helper Processed Measurement function to store Processed Data.
 
 Helper Processed Measurement function to insert Valid Processed Data.
 
->Parameters
+**Parameters:**
 
 * **data** (*json*) - Processed measurement valid detail
 
@@ -95,6 +95,6 @@ Helper Processed Measurement function to insert Valid Processed Data.
 
 Helper Daily Air Measurement function to store air daily measurement.
 
->Parameters
+**Parameters:**
 
 * **data** (*json*) - json of average of daily measurement

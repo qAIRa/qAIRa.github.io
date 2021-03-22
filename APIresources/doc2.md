@@ -19,7 +19,7 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 Air Daily Measurement function to record daily average measurement
 
->Parameters
+**Parameters:**
 
 * **data_jason** (*json*) - json of daily average measurement
 
@@ -27,7 +27,7 @@ Air Daily Measurement function to record daily average measurement
 
 Air Daily Measurement function to get daily average measurement based on week number and year
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -53,7 +53,7 @@ POST: records processed measurement and valid processed measurement every five s
 
 Json input of Air Quality Measurement
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -63,7 +63,7 @@ Json input of Air Quality Measurement
 
 Lists all measurements in ppb of air quality measurement table in a defined period of time. This is an hourly average measurement.
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -75,7 +75,7 @@ Lists all measurements in ppb of air quality measurement table in a defined peri
 
 Lists all values by a defined gas or dust in ug/m3 of air quality measurement table of the last 24 hours.
 
->Parameters
+**Parameters:**
 
 * **qhawax** (*string*) - qHAWAX name
 
@@ -85,7 +85,7 @@ Lists all values by a defined gas or dust in ug/m3 of air quality measurement ta
 
 Lists all average measurements of valid processed measurement table in a defined period of time and company.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -104,7 +104,7 @@ POST: To record gas and dust measurement in gas Inca table.
 
 Json input of Air Quality Measurement.
 
->Parameters
+**Parameters:**
 
 * **timestamp_zone** (*string*) - timestamp with time zone
 
@@ -171,7 +171,7 @@ Helper Processed Measurement function to get the qHAWAX mode.
 
 Helper Processed Measurement function to get the qHAWAX commercial name.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -179,7 +179,7 @@ Helper Processed Measurement function to get the qHAWAX commercial name.
 
 Helper function to get the measurement records from a specific qHAWAX in a defined period of time
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -191,7 +191,7 @@ Helper function to get the measurement records from a specific qHAWAX in a defin
 
 Helper function to get the last dates in which a qHAWAX has been turned on and turned off.
 
->Parameters
+**Parameters:**
 
 * **installation_id** (*integer*) - qHAWAX ID
 
@@ -199,7 +199,7 @@ Helper function to get the last dates in which a qHAWAX has been turned on and t
 
 Helper function to get gas average measurement.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX gas name
 
@@ -211,7 +211,7 @@ Helper function to get gas average measurement.
 
 Helper function to get Air Quality measurement.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -223,7 +223,7 @@ Helper function to get Air Quality measurement.
 
 Helper function to get GAS INCA measurement.
 
->Parameters
+**Parameters:**
 
 * **initial_timestamp** (*timestamp with time zone*) - initial date with time
 
@@ -233,7 +233,7 @@ Helper function to get GAS INCA measurement.
 
 Helper function to get Processed Measurement data based on qHAWAX name.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -247,7 +247,7 @@ Helper function to get Processed Measurement data based on qHAWAX name.
 
 Helper Processed Measurement function to get Noise Area Description.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -255,7 +255,7 @@ Helper Processed Measurement function to get Noise Area Description.
 
 Helper Processed Measurement function to get difference between **last_registration_time** and **last_time_physically_turn_on**.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -350,7 +350,7 @@ Json input of following Air Measurement fields:
 
 Helper function to record GAS INCA measurement.
 
->Parameters
+**Parameters:**
 
 * **data** (*json*) - gas Inca measurement
 
@@ -358,7 +358,7 @@ Helper function to record GAS INCA measurement.
 
 Helper Processed Measurement function to store Processed Data.
 
->Parameters
+**Parameters:**
 
 * **data** (*json*) - Processed measurement detail
 
@@ -366,7 +366,7 @@ Helper Processed Measurement function to store Processed Data.
 
 Helper Processed Measurement function to insert Valid Processed Data.
 
->Parameters
+**Parameters:**
 
 * **data** (*json*) - Processed measurement valid detail
 
@@ -376,7 +376,7 @@ Helper Processed Measurement function to insert Valid Processed Data.
 
 Helper Daily Air Measurement function to store air daily measurement.
 
->Parameters
+**Parameters:**
 
 * **data** (*json*) - json of average of daily measurement
 
@@ -387,7 +387,7 @@ Helper Daily Air Measurement function to store air daily measurement.
 
 Lists all measurement of processed measurement table record the last N minutes.
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -399,7 +399,7 @@ Records processed measurement and valid processed measurement every five seconds
 
 Json input of following Air Measurement fields:
 
->Parameters
+**Parameters:**
 
 * **timestamp** (*string*) - timestamp with time zone
 
@@ -447,7 +447,7 @@ Json input of following Air Measurement fields:
 
 Lists all average measurements of processed measurement table in a defined period of time
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -459,7 +459,7 @@ Lists all average measurements of processed measurement table in a defined perio
 
 Lists all measurements of processed measurement table in a define period of time
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -476,7 +476,7 @@ The file shows the ...
 
 Lists all measurements of valid processed measurement table in a define period of time and company
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -488,7 +488,7 @@ Lists all measurements of valid processed measurement table in a define period o
 
 Lists all measurements of valid processed measurement table record the last N minutes
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -500,6 +500,6 @@ Gets the time of the last record in valid processed measurement table
 
 If this qHAWAX does not exist, returns []
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name

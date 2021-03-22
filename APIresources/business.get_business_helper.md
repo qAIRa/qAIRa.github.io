@@ -17,7 +17,7 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 To get time qHAWAX history.
 
->Parameters
+**Parameters:**
 
 * **installation_id** (*integer*) - Installation ID
 
@@ -37,7 +37,7 @@ Helper Eca Noise function to list all zones.
 
 Helper Eca Noise function to get zone description.
 
->Parameters
+**Parameters:**
 
 * **eca_noise_id** (*string*) - Eca Noise ID
 
@@ -45,7 +45,7 @@ Helper Eca Noise function to get zone description.
 
 Helper Gas Sensor function to get offsets from qHAWAX name.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -53,7 +53,7 @@ Helper Gas Sensor function to get offsets from qHAWAX name.
 
 Helper Gas Sensor function to get controlled offsets from qHAWAX ID.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*string*) - qHAWAX ID
 
@@ -61,7 +61,7 @@ Helper Gas Sensor function to get controlled offsets from qHAWAX ID.
 
 Helper Gas Sensor function to get non-controlled offsets from qHAWAX name.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -69,7 +69,7 @@ Helper Gas Sensor function to get non-controlled offsets from qHAWAX name.
 
 Helper qHAWAX function to get main Inca value.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -77,7 +77,7 @@ Helper qHAWAX function to get main Inca value.
 
 Helper qHAWAX function to get Installation Date.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -85,7 +85,7 @@ Helper qHAWAX function to get Installation Date.
 
 Helper qHAWAX Installation function to get first timestamp of Valid Processed.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -93,7 +93,7 @@ Helper qHAWAX Installation function to get first timestamp of Valid Processed.
 
 Helper qHAWAX function to get last qHAWAX ID.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -101,7 +101,7 @@ Helper qHAWAX function to get last qHAWAX ID.
 
 Helper Gas Sensor function to get last Gas Sensor ID.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -109,7 +109,7 @@ Helper Gas Sensor function to get last Gas Sensor ID.
 
 To check qHAWAX in field.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -117,7 +117,7 @@ To check qHAWAX in field.
 
 Helper qHAWAX function to get latest timestamp in UTC 00 from Processed Measurement.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -125,7 +125,7 @@ Helper qHAWAX function to get latest timestamp in UTC 00 from Processed Measurem
 
 Helper qHAWAX function to get latest timestamp in UTC 00 from Valid Processed Measurement
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -139,7 +139,7 @@ To get list of qHAWAXs in field in public mode
 
 To get qHAWAX mode based on name
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -147,6 +147,6 @@ To get qHAWAX mode based on name
 
 To get qHAWAX status based on name
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name

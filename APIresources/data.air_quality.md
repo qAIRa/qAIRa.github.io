@@ -22,7 +22,7 @@ POST: records processed measurement and valid processed measurement every five s
 
 Json input of Air Quality Measurement
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -32,7 +32,7 @@ Json input of Air Quality Measurement
 
 Lists all measurements in ppb of air quality measurement table in a defined period of time. This is an hourly average measurement.
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -44,7 +44,7 @@ Lists all measurements in ppb of air quality measurement table in a defined peri
 
 Lists all values by a defined gas or dust in ug/m3 of air quality measurement table of the last 24 hours.
 
->Parameters
+**Parameters:**
 
 * **qhawax** (*string*) - qHAWAX name
 
@@ -54,7 +54,7 @@ Lists all values by a defined gas or dust in ug/m3 of air quality measurement ta
 
 Lists all average measurements of valid processed measurement table in a defined period of time and company.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 

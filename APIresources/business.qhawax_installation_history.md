@@ -19,7 +19,7 @@ Creates a qHAWAX in field.
 
 Json input of following fields:
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -57,7 +57,7 @@ Saves the last date of a qHAWAX in field.
 
 Json input of following fields:
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -67,7 +67,7 @@ Json input of following fields:
 
 Gets list of qHAWAXs filtered by company
 
->Parameters
+**Parameters:**
 
 * **company_id** (*integer*) - company ID
 
@@ -75,7 +75,7 @@ Gets list of qHAWAXs filtered by company
 
 Gets installation date of qHAWAX in field.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -85,7 +85,7 @@ Creates a qHAWAX in field.
 
 Json input offollowing fields:
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 

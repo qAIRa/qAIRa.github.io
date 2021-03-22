@@ -19,7 +19,7 @@ POST: To record gas and dust measurement in gas Inca table.
 
 Json input of Air Quality Measurement.
 
->Parameters
+**Parameters:**
 
 * **timestamp_zone** (*string*) - timestamp with time zone
 

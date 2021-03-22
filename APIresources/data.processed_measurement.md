@@ -17,7 +17,7 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 Lists all measurement of processed measurement table record the last N minutes.
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -29,7 +29,7 @@ Records processed measurement and valid processed measurement every five seconds
 
 Json input of following Air Measurement fields:
 
->Parameters
+**Parameters:**
 
 * **timestamp** (*string*) - timestamp with time zone
 
@@ -77,7 +77,7 @@ Json input of following Air Measurement fields:
 
 Lists all average measurements of processed measurement table in a defined period of time
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -89,7 +89,7 @@ Lists all average measurements of processed measurement table in a defined perio
 
 Lists all measurements of processed measurement table in a define period of time
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 

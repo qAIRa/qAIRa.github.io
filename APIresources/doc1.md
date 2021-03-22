@@ -44,7 +44,7 @@ This file shows all the...
 
 To get the minimum and the maximum eca noises.
 
->Parameters
+**Parameters:**
 
 * **ID** (*string*) - Eca Noise ID
 
@@ -63,7 +63,7 @@ This file shows all the...
 
 Endpoint to list offsets variable filter by qHAWAX ID.
 
->Parameters
+**Parameters:**
 
 * **ID** (*string*) - qHAWAX name
 
@@ -71,7 +71,7 @@ Endpoint to list offsets variable filter by qHAWAX ID.
 
 Endpoint to list controlled offsets variable filter by qHAWAX ID.
 
->Parameters
+**Parameters:**
 
 * **ID** (*string*) - qHAWAX name
 
@@ -79,7 +79,7 @@ Endpoint to list controlled offsets variable filter by qHAWAX ID.
 
 Endpoint to list non-controlled offsets variable filter by qHAWAX ID.
 
->Parameters
+**Parameters:**
 
 * **ID** (*string*) - qHAWAX name
 
@@ -87,7 +87,7 @@ Endpoint to list non-controlled offsets variable filter by qHAWAX ID.
 
 Endpoint to save offset variables.
 
->Parameters
+**Parameters:**
 
 * **ID** (*string*) - qHAWAX name
 
@@ -101,7 +101,7 @@ Endpoint to save offset variables.
 
 Endpoint to save controlled offset variables.
 
->Parameters
+**Parameters:**
 
 * **product_id** (*integer*) - qHAWAX name
 
@@ -111,7 +111,7 @@ Endpoint to save controlled offset variables.
 
 Endpoint to save non-controlled offset variables.
 
->Parameters
+**Parameters:**
 
 * **product_id** (*integer*) - qHAWAX name
 
@@ -124,7 +124,7 @@ Endpoint to save non-controlled offset variables.
 
 To get time qHAWAX history.
 
->Parameters
+**Parameters:**
 
 * **installation_id** (*integer*) - Installation ID
 
@@ -144,7 +144,7 @@ Helper Eca Noise function to list all zones.
 
 Helper Eca Noise function to get zone description.
 
->Parameters
+**Parameters:**
 
 * **eca_noise_id** (*string*) - Eca Noise ID
 
@@ -152,7 +152,7 @@ Helper Eca Noise function to get zone description.
 
 Helper Gas Sensor function to get offsets from qHAWAX name.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -160,7 +160,7 @@ Helper Gas Sensor function to get offsets from qHAWAX name.
 
 Helper Gas Sensor function to get controlled offsets from qHAWAX ID.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*string*) - qHAWAX ID
 
@@ -168,7 +168,7 @@ Helper Gas Sensor function to get controlled offsets from qHAWAX ID.
 
 Helper Gas Sensor function to get non-controlled offsets from qHAWAX name.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -176,7 +176,7 @@ Helper Gas Sensor function to get non-controlled offsets from qHAWAX name.
 
 Helper qHAWAX function to get main Inca value.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -184,7 +184,7 @@ Helper qHAWAX function to get main Inca value.
 
 Helper qHAWAX function to get Installation Date.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -192,7 +192,7 @@ Helper qHAWAX function to get Installation Date.
 
 Helper qHAWAX Installation function to get first timestamp of Valid Processed.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -200,7 +200,7 @@ Helper qHAWAX Installation function to get first timestamp of Valid Processed.
 
 Helper qHAWAX function to get last qHAWAX ID.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -208,7 +208,7 @@ Helper qHAWAX function to get last qHAWAX ID.
 
 Helper Gas Sensor function to get last Gas Sensor ID.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -216,7 +216,7 @@ Helper Gas Sensor function to get last Gas Sensor ID.
 
 To check qHAWAX in field.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -224,7 +224,7 @@ To check qHAWAX in field.
 
 Helper qHAWAX function to get latest timestamp in UTC 00 from Processed Measurement.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -232,7 +232,7 @@ Helper qHAWAX function to get latest timestamp in UTC 00 from Processed Measurem
 
 Helper qHAWAX function to get latest timestamp in UTC 00 from Valid Processed Measurement
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -246,7 +246,7 @@ To get list of qHAWAXs in field in public mode
 
 To get qHAWAX mode based on name
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -254,7 +254,7 @@ To get qHAWAX mode based on name
 
 To get qHAWAX status based on name
 
->Parameters
+**Parameters:**
 
 ---
 ### Post Business Helper Module
@@ -263,7 +263,7 @@ To get qHAWAX status based on name
 
 Helper Gas Sensor function to save offsets from qHAWAX ID
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -273,7 +273,7 @@ Helper Gas Sensor function to save offsets from qHAWAX ID
 
 Helper Gas Sensor function to save controlled offsets from qHAWAX ID
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -283,7 +283,7 @@ Helper Gas Sensor function to save controlled offsets from qHAWAX ID
 
 Helper Gas Sensor function to save non controlled offsets from qHAWAX ID.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -293,7 +293,7 @@ Helper Gas Sensor function to save non controlled offsets from qHAWAX ID.
 
 Helper qHAWAX function to save main inca value in qHAWAX table
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -303,7 +303,7 @@ Helper qHAWAX function to save main inca value in qHAWAX table
 
 Helper qHAWAX function to save main inca value in qHAWAX Installation table
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -313,7 +313,7 @@ Helper qHAWAX function to save main inca value in qHAWAX Installation table
 
 Sets qHAWAX OFF in qHAWAX table.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -321,7 +321,7 @@ Sets qHAWAX OFF in qHAWAX table.
 
 Sets qHAWAX OFF in qHAWAX Installation table.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -331,7 +331,7 @@ Sets qHAWAX OFF in qHAWAX Installation table.
 
 Sets qHAWAX ON in qHAWAX table.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -339,7 +339,7 @@ Sets qHAWAX ON in qHAWAX table.
 
 Sets qHAWAX ON in qHAWAX Installation table.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -347,7 +347,7 @@ Sets qHAWAX ON in qHAWAX Installation table.
 
 Sets qHAWAX ON in qHAWAX Installation table.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -355,7 +355,7 @@ Sets qHAWAX ON in qHAWAX Installation table.
 
 Updates qHAWAX Availability to Occupied.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -363,7 +363,7 @@ Updates qHAWAX Availability to Occupied.
 
 Updates qHAWAX mode to Customer.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -371,7 +371,7 @@ Updates qHAWAX mode to Customer.
 
 Saves End Work in Field.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -381,7 +381,7 @@ Saves End Work in Field.
 
 Updates qHAWAX installation state in qHAWAX table.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -389,7 +389,7 @@ Updates qHAWAX installation state in qHAWAX table.
 
 Changes to other mode.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -397,7 +397,7 @@ Changes to other mode.
 
 Updates qHAWAX in field.
 
->Parameters
+**Parameters:**
 
 * **data** (*Json*) - qHAWAX installation detail
 
@@ -405,7 +405,7 @@ Updates qHAWAX in field.
 
 Creates a qHAWAX module.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -417,7 +417,7 @@ Creates a qHAWAX module.
 
 Inserts a default offset.
 
->Parameters
+**Parameters:**
 
 * **last_gas_sensor_id** (*integer*) - last gas sensor ID
 
@@ -427,7 +427,7 @@ Inserts a default offset.
 
 Inserts a new company.
 
->Parameters
+**Parameters:**
 
 * **json_company** (*Json*) - json company
 
@@ -435,7 +435,7 @@ Inserts a new company.
 
 Inserts new qHAWAX in Field.
 
->Parameters
+**Parameters:**
 
 * **data** (*Json*) - qHAWAX Installation detail
 
@@ -443,7 +443,7 @@ Inserts new qHAWAX in Field.
 
 Writes Binnacle.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -460,7 +460,7 @@ Writes Binnacle.
 
 Gets qHAWAX Inca value.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -474,7 +474,7 @@ Gets all active qHAWAXs that are in field in mode customer.
 
 Saves qHAWAX Inca value.
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -486,7 +486,7 @@ Endpoint to set qHAWAX OFF because script detect no new data within five minutes
 
 Json input of following fields:
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -502,7 +502,7 @@ Sets qHAWAX ON due to module reset (sensors reset).
 
 Json input of following fields:
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -514,7 +514,7 @@ Json input of following fields:
 
 Gets time all active qHAWAX - Script
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -524,7 +524,7 @@ Creates a qHAWAX
 
 Json input of following fields:
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -540,7 +540,7 @@ qHAWAX update to Calibration mode, set main inca -2 value.
 
 Json input of following fields:
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -552,7 +552,7 @@ Json input of following fields:
 
 qHAWAX update end calibration mode, set main inca original, depends of mode (custome or stand by).
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -562,7 +562,7 @@ qHAWAX update end calibration mode, set main inca original, depends of mode (cus
 
 Gets qHAWAX Processed Measurement latest timestamp.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -570,7 +570,7 @@ Gets qHAWAX Processed Measurement latest timestamp.
 
 To get qHAWAX Valid Processed Measurement latest timestamp.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -578,7 +578,7 @@ To get qHAWAX Valid Processed Measurement latest timestamp.
 
 Gets qHAWAX status
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -594,7 +594,7 @@ Creates a qHAWAX in field.
 
 Json input of following fields:
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -632,7 +632,7 @@ Saves the last date of a qHAWAX in field.
 
 Json input of following fields:
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -642,7 +642,7 @@ Json input of following fields:
 
 Gets list of qHAWAXs filtered by company
 
->Parameters
+**Parameters:**
 
 * **company_id** (*integer*) - company ID
 
@@ -650,7 +650,7 @@ Gets list of qHAWAXs filtered by company
 
 Gets installation date of qHAWAX in field.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -660,7 +660,7 @@ Creates a qHAWAX in field.
 
 Json input offollowing fields:
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 

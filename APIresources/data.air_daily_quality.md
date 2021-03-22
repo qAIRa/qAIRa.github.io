@@ -17,7 +17,7 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 Air Daily Measurement function to record daily average measurement.
 
->Parameters
+**Parameters:**
 
 * **data_jason** (*json*) - json of daily average measurement
 
@@ -25,7 +25,7 @@ Air Daily Measurement function to record daily average measurement.
 
 Air Daily Measurement function to get daily average measurement based on week number and year.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 

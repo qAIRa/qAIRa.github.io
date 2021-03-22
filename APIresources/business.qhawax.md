@@ -17,7 +17,7 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 Gets qHAWAX Inca value.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -31,7 +31,7 @@ Gets all active qHAWAXs that are in field in mode customer.
 
 Saves qHAWAX Inca value.
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -43,7 +43,7 @@ Endpoint to set qHAWAX OFF because script detect no new data within five minutes
 
 Json input of following fields:
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -59,7 +59,7 @@ Sets qHAWAX ON due to module reset (sensors reset).
 
 Json input of following fields:
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -71,7 +71,7 @@ Json input of following fields:
 
 Gets time all active qHAWAX - Script
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -81,7 +81,7 @@ Creates a qHAWAX
 
 Json input of following fields:
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name
 
@@ -97,7 +97,7 @@ qHAWAX update to Calibration mode, set main inca -2 value.
 
 Json input of following fields:
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -109,7 +109,7 @@ Json input of following fields:
 
 qHAWAX update end calibration mode, set main inca original, depends of mode (custome or stand by).
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -119,7 +119,7 @@ qHAWAX update end calibration mode, set main inca original, depends of mode (cus
 
 Gets qHAWAX Processed Measurement latest timestamp.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -127,7 +127,7 @@ Gets qHAWAX Processed Measurement latest timestamp.
 
 To get qHAWAX Valid Processed Measurement latest timestamp.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -135,6 +135,6 @@ To get qHAWAX Valid Processed Measurement latest timestamp.
 
 Gets qHAWAX status
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name

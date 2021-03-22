@@ -6,20 +6,18 @@ sidebar_label: Post Business Helper Module
 
 The file shows the functions that register and request data related to the Post Business Helper table.
 
-```javascript
 export const Highlight = ({children, color}) => ( <span style={{
       backgroundColor: color,
       borderRadius: '2px',
       color: '#000000',
       padding: '0.2rem',
     }}>{children}</span> );
-```
 
 #### <Highlight color="#b2e4f7">post_business_helper.updateOffsetsFromProductID(qhawax_name, offsets)</Highlight>
 
 Helper Gas Sensor function to save offsets from qHAWAX ID
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -29,7 +27,7 @@ Helper Gas Sensor function to save offsets from qHAWAX ID
 
 Helper Gas Sensor function to save controlled offsets from qHAWAX ID
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -39,7 +37,7 @@ Helper Gas Sensor function to save controlled offsets from qHAWAX ID
 
 Helper Gas Sensor function to save non controlled offsets from qHAWAX ID.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -49,7 +47,7 @@ Helper Gas Sensor function to save non controlled offsets from qHAWAX ID.
 
 Helper qHAWAX function to save main inca value in qHAWAX table
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -59,7 +57,7 @@ Helper qHAWAX function to save main inca value in qHAWAX table
 
 Helper qHAWAX function to save main inca value in qHAWAX Installation table
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -69,7 +67,7 @@ Helper qHAWAX function to save main inca value in qHAWAX Installation table
 
 Sets qHAWAX OFF in qHAWAX table.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -77,7 +75,7 @@ Sets qHAWAX OFF in qHAWAX table.
 
 Sets qHAWAX OFF in qHAWAX Installation table.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -87,7 +85,7 @@ Sets qHAWAX OFF in qHAWAX Installation table.
 
 Sets qHAWAX ON in qHAWAX table.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -95,7 +93,7 @@ Sets qHAWAX ON in qHAWAX table.
 
 Sets qHAWAX ON in qHAWAX Installation table.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -103,7 +101,7 @@ Sets qHAWAX ON in qHAWAX Installation table.
 
 Sets qHAWAX ON in qHAWAX Installation table.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -111,7 +109,7 @@ Sets qHAWAX ON in qHAWAX Installation table.
 
 Updates qHAWAX Availability to Occupied.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -119,7 +117,7 @@ Updates qHAWAX Availability to Occupied.
 
 Updates qHAWAX mode to Customer.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -127,7 +125,7 @@ Updates qHAWAX mode to Customer.
 
 Saves End Work in Field.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -137,7 +135,7 @@ Saves End Work in Field.
 
 Updates qHAWAX installation state in qHAWAX table.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -145,7 +143,7 @@ Updates qHAWAX installation state in qHAWAX table.
 
 Changes to other mode.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -153,7 +151,7 @@ Changes to other mode.
 
 Updates qHAWAX in field.
 
->Parameters
+**Parameters:**
 
 * **data** (*Json*) - qHAWAX installation detail
 
@@ -161,7 +159,7 @@ Updates qHAWAX in field.
 
 Creates a qHAWAX module.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -173,7 +171,7 @@ Creates a qHAWAX module.
 
 Inserts a default offset.
 
->Parameters
+**Parameters:**
 
 * **last_gas_sensor_id** (*integer*) - last gas sensor ID
 
@@ -183,7 +181,7 @@ Inserts a default offset.
 
 Inserts a new company.
 
->Parameters
+**Parameters:**
 
 * **json_company** (*Json*) - json company
 
@@ -191,7 +189,7 @@ Inserts a new company.
 
 Inserts new qHAWAX in Field.
 
->Parameters
+**Parameters:**
 
 * **data** (*Json*) - qHAWAX Installation detail
 
@@ -199,7 +197,7 @@ Inserts new qHAWAX in Field.
 
 Writes Binnacle.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 

@@ -25,7 +25,7 @@ Helper Processed Measurement function to get the qHAWAX mode.
 
 Helper Processed Measurement function to get the qHAWAX commercial name.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -33,7 +33,7 @@ Helper Processed Measurement function to get the qHAWAX commercial name.
 
 Helper function to get the measurement records from a specific qHAWAX in a defined period of time
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -45,7 +45,7 @@ Helper function to get the measurement records from a specific qHAWAX in a defin
 
 Helper function to get the last dates in which a qHAWAX has been turned on and turned off.
 
->Parameters
+**Parameters:**
 
 * **installation_id** (*integer*) - qHAWAX ID
 
@@ -53,7 +53,7 @@ Helper function to get the last dates in which a qHAWAX has been turned on and t
 
 Helper function to get gas average measurement.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX gas name
 
@@ -65,7 +65,7 @@ Helper function to get gas average measurement.
 
 Helper function to get Air Quality measurement.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -77,7 +77,7 @@ Helper function to get Air Quality measurement.
 
 Helper function to get GAS INCA measurement.
 
->Parameters
+**Parameters:**
 
 * **initial_timestamp** (*timestamp with time zone*) - initial date with time
 
@@ -87,7 +87,7 @@ Helper function to get GAS INCA measurement.
 
 Helper function to get Processed Measurement data based on qHAWAX name.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -101,7 +101,7 @@ Helper function to get Processed Measurement data based on qHAWAX name.
 
 Helper Processed Measurement function to get Noise Area Description.
 
->Parameters
+**Parameters:**
 
 * **qhawax_name** (*string*) - qHAWAX name
 
@@ -109,7 +109,7 @@ Helper Processed Measurement function to get Noise Area Description.
 
 Helper Processed Measurement function to get difference between **last_registration_time** and **last_time_physically_turn_on**.
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 

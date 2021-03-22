@@ -17,7 +17,7 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 Gets the minimum and the maximum Eca noises.
 
->Parameters
+**Parameters:**
 
 * **ID** (*string*) - Eca Noise ID
 

@@ -17,7 +17,7 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 Lists all measurements of valid processed measurement table in a define period of time and company
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -29,7 +29,7 @@ Lists all measurements of valid processed measurement table in a define period o
 
 Lists all measurements of valid processed measurement table record the last N minutes
 
->Parameters
+**Parameters:**
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
@@ -41,6 +41,6 @@ Gets the time of the last record in valid processed measurement table
 
 If this qHAWAX does not exist, returns []
 
->Parameters
+**Parameters:**
 
 * **name** (*string*) - qHAWAX name

@@ -6,20 +6,18 @@ sidebar_label: Gas Sensor Module
 
 The file shows the functions that register and request data related to the Gas Sensor table.
 
-```javascript
 export const Highlight = ({children, color}) => ( <span style={{
       backgroundColor: color,
       borderRadius: '2px',
       color: '#000000',
       padding: '0.2rem',
     }}>{children}</span> );
-```
 
 #### <Highlight color="#b2e4f7">gas_sensor.requestOffsets()</Highlight>
 
 Endpoint to list offsets variable filter by qHAWAX ID.
 
->Parameters
+**Parameters:**
 
 * **ID** (*string*) - qHAWAX name
 
@@ -27,7 +25,7 @@ Endpoint to list offsets variable filter by qHAWAX ID.
 
 Endpoint to list controlled offsets variable filter by qHAWAX ID.
 
->Parameters
+**Parameters:**
 
 * **ID** (*string*) - qHAWAX name
 
@@ -35,7 +33,7 @@ Endpoint to list controlled offsets variable filter by qHAWAX ID.
 
 Endpoint to list non-controlled offsets variable filter by qHAWAX ID.
 
->Parameters
+**Parameters:**
 
 * **ID** (*string*) - qHAWAX name
 
@@ -43,7 +41,7 @@ Endpoint to list non-controlled offsets variable filter by qHAWAX ID.
 
 Endpoint to save offset variables.
 
->Parameters
+**Parameters:**
 
 * **ID** (*string*) - qHAWAX name
 
@@ -57,7 +55,7 @@ Endpoint to save offset variables.
 
 Endpoint to save controlled offset variables.
 
->Parameters
+**Parameters:**
 
 * **product_id** (*integer*) - qHAWAX name
 
@@ -67,7 +65,7 @@ Endpoint to save controlled offset variables.
 
 Endpoint to save non-controlled offset variables.
 
->Parameters
+**Parameters:**
 
 * **product_id** (*integer*) - qHAWAX name
 
