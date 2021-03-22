@@ -49,7 +49,17 @@ npm deploy
 
 We suggest that you begin by typing:
 
+<<<<<<< HEAD
 ```sh
 cd Documentation-OpenSource
 npm start
 ```
+=======
+  cd Documentation-OpenSource
+  npm start
+
+
+## Legal notices and attributions
+
+* Uses [Circle CI implementation](https://github.com/FOSSRIT/people/tree/57100587ea79854f77087008b3bfd564a2ba79fb/.circleci) from [FOSSRIT/people](https://github.com/FOSSRIT/people) ([GPLv3](https://github.com/FOSSRIT/people/blob/57100587ea79854f77087008b3bfd564a2ba79fb/LICENSE.txt)).
+>>>>>>> 8c2fc1c629433404110f5a6252b966df8991f37b
