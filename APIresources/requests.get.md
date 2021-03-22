@@ -31,7 +31,6 @@ Returns a list of json data about every qHAWAX without an end date, which means 
 * **initial_timestamp** = [*datetime*]
 * **final_timestamp** = [*datetime*]
 
-
 **Success Response:**
 
 Code: 200
@@ -77,6 +76,7 @@ Content:
 
 ]
 ```
+
 **Error Response:**
 
 Code: 400
@@ -215,6 +215,7 @@ Content:
 ]
 
 ```
+
 **Error Response:**
 
 Code: 400
@@ -254,7 +255,6 @@ Returns a list of json data about all the finished flights. Each json contains t
 * **initial_timestamp** = [*datetime*]
 * **final_timestamp** = [*datetime*]
 
-
 **Success Response:**
 
 Code: 200
@@ -274,6 +274,7 @@ Content:
 ]
 
 ```
+
 **Error Response:**
 
 Code: 400
@@ -297,7 +298,6 @@ Returns a list of json data containing technical information about the flight th
 * **qhawax_name** = [*string*]
 * **initial_timestamp** = [*datetime*]
 * **final_timestamp** = [*datetime*]
-
 
 **Success Response:**
 
@@ -349,6 +349,7 @@ Content:
 ]
 
 ```
+
 **Error Response:**
 
 Code: 400
@@ -393,6 +394,7 @@ Content:
     70
 ]
 ```
+
 **Error Response:**
 
 Code: 400
@@ -418,7 +420,6 @@ Returns a list of json data containing all the Eca Noise IDs and their correspon
 **Method:** GET
 
 **URL Parameters:** *None*
-
 
 **Success Response:**
 
@@ -447,6 +448,7 @@ Content:
 ]
 
 ```
+
 **Error Response:**
 
 Code: 400
@@ -509,6 +511,7 @@ Content:
     }
 ]
 ```
+
 **Error Response:**
 
 Code: 400
@@ -640,6 +643,7 @@ Content:
     }
 ]
 ```
+
 **Error Response:**
 
 Code: 400
@@ -772,6 +776,7 @@ Content:
     }
 ]
 ```
+
 **Error Response:**
 
 Code: 400

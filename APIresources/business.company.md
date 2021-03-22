@@ -19,7 +19,7 @@ Adds a company.
 
 Json input of following fields:
 
- >Parameters
+Parameters:
 
 * **company_name** (*string*) - company name to add to the database
 

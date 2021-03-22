@@ -25,7 +25,6 @@ Lists all measurements of valid processed measurement table in a define period o
 
 * **final_timestamp** (*timestamp without timezone*) - timestamp day-month-year hour:minute:second (UTC OO)
 
-
 #### <Highlight color="#b2e4f7">valid_processed_measurement.getValidProcessedData()</Highlight>
 
 Lists all measurements of valid processed measurement table record the last N minutes

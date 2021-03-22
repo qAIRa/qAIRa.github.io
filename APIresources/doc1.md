@@ -21,7 +21,7 @@ adds a company
 
 Json input of following fields:
 
- >Parameters
+**Parameters**:
 
 * **company_name** (*string*) - company name to add to the database
 
@@ -106,7 +106,6 @@ Endpoint to save controlled offset variables.
 * **product_id** (*integer*) - qHAWAX name
 
 * **controlled_offsets** (*Json*) - Json of controlled offset variable of qHAWAX
-
 
 #### <Highlight color="#b2e4f7">gas_sensor.saveNonControlledOffsets()</Highlight>
 
@@ -310,7 +309,6 @@ Helper qHAWAX function to save main inca value in qHAWAX Installation table
 
 * **new_main_inca** (*integer*) - qHAWAX main inca
 
-
 #### <Highlight color="#b2e4f7">post_business_helper.saveStatusOffQhawaxTable(qhawax_name)</Highlight>
 
 Sets qHAWAX OFF in qHAWAX table.
@@ -328,7 +326,6 @@ Sets qHAWAX OFF in qHAWAX Installation table.
 * **qhawax_name** (*string*) - qHAWAX name
 
 * **qhawax_lost_timestamp** (*timestamp*) - qHAWAX last time off
-
 
 #### <Highlight color="#b2e4f7">post_business_helper.saveStatusOnTable(qhawax_name)</Highlight>
 
@@ -379,7 +376,6 @@ Saves End Work in Field.
 * **qhawax_id** (*integer*) - qHAWAX ID
 
 * **end_date** (*timestamp*) - qHAWAX installation end date
-
 
 #### <Highlight color="#b2e4f7">post_business_helper.setAvailableQhawax(qhawax_id)</Highlight>
 

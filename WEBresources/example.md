@@ -17,8 +17,7 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 Adds a company.
 
-
- >Parameters
+**Parameters**:
 
 * **company_name** (*string*) - company name to add to the database
 

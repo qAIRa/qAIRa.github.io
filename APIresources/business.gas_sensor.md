@@ -6,12 +6,14 @@ sidebar_label: Gas Sensor Module
 
 The file shows the functions that register and request data related to the Gas Sensor table.
 
+```javascript
 export const Highlight = ({children, color}) => ( <span style={{
       backgroundColor: color,
       borderRadius: '2px',
       color: '#000000',
       padding: '0.2rem',
     }}>{children}</span> );
+```
 
 #### <Highlight color="#b2e4f7">gas_sensor.requestOffsets()</Highlight>
 
@@ -60,7 +62,6 @@ Endpoint to save controlled offset variables.
 * **product_id** (*integer*) - qHAWAX name
 
 * **controlled_offsets** (*Json*) - Json of controlled offset variable of qHAWAX
-
 
 #### <Highlight color="#b2e4f7">gas_sensor.saveNonControlledOffsets()</Highlight>
 

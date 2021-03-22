@@ -3,7 +3,8 @@ id: fromJsonToCsv
 title: From Json To CSV
 sidebar_label: From Json To CSV
 ---
-*fromJsonToCsv.js*
+
+`fromJsonToCsv.js`
 
 This file shows the functions to turn a .json file to a .csv file and downloads it.
 

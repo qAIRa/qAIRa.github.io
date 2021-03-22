@@ -1,6 +1,6 @@
 ---
 id: doc2
-title: Data Module   
+title: Data Module
 sidebar_label: Data
 ---
 
@@ -187,7 +187,6 @@ Helper function to get the measurement records from a specific qHAWAX in a defin
 
 * **final_timestamp** (*timestamp with time zone*) - final date with time
 
-
 #### <Highlight color="#b2e4f7">get_data_helper.getTimeQhawaxHistory(installation_id)</Highlight>
 
 Helper function to get the last dates in which a qHAWAX has been turned on and turned off.
@@ -373,7 +372,6 @@ Helper Processed Measurement function to insert Valid Processed Data.
 
 * **qhawax_id** (*integer*) - qHAWAX ID
 
-
 #### <Highlight color="#b2e4f7">post_data_helper.storeAirDailyQualityDataInDB(data)</Highlight>
 
 Helper Daily Air Measurement function to store air daily measurement.
@@ -485,7 +483,6 @@ Lists all measurements of valid processed measurement table in a define period o
 * **initial_timestamp** (*timestamp without timezone*) - timestamp day-month-year hour:minute:second (UTC OO)
 
 * **final_timestamp** (*timestamp without timezone*) - timestamp day-month-year hour:minute:second (UTC OO)
-
 
 #### <Highlight color="#b2e4f7">valid_processed_measurement.getValidProcessedData()</Highlight>
 
