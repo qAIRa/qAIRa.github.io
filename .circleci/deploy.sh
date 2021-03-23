@@ -4,7 +4,7 @@
 #
 set -e
 
-DEPLOY_DIR=~/project/build
+DEPLOY_DIR=~/project/gh-pages
 
 # trust GitHub server keys
 mkdir ~/.ssh/
