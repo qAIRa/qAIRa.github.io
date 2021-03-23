@@ -63,4 +63,4 @@ jobs:
       # deploy to production
       - deploy:
           name: Deploy to GitHub Pages
-          command: ./qAIRa/qAIRa.github.io/.circleci/deploy.sh
+          command: ./qAIRa.github.io/.circleci/deploy.sh
