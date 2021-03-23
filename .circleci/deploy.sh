@@ -2,7 +2,6 @@
 #
 # Force-push the built HTML to the `gh-pages` branch.
 #
-
 set -e
 
 DEPLOY_DIR=~/build
