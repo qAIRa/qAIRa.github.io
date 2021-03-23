@@ -42,7 +42,7 @@ jobs:
       - run: npm run build
 
       - persist_to_workspace:
-          root: _site
+          root: .
           paths:
             - build/*
 
@@ -54,7 +54,7 @@ jobs:
       - run: apk add rsync
 
       # clone repo (required to access `.circleci/deploy.sh`)
-      - run: git clone https://github.com/qAIRa.github.io.git
+      - run: git clone https://github.com/qAIRa/qAIRa.github.io.git
 
       # checkout generated html
       - attach_workspace:
