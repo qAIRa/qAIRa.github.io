@@ -44,8 +44,8 @@ jobs:
 
       - persist_to_workspace:
           root: .
-          paths:
-            - build/*
+          # paths:
+          #   - build/*
 
   deploy:
     docker:
@@ -59,7 +59,7 @@ jobs:
 
       # checkout generated html
       - attach_workspace:
-          at: .
+          at: build
 
       # deploy to production
       - add_ssh_keys:
