@@ -10,12 +10,13 @@ workflows:
       - deploy:
           filters:
             branches:
-              ignore: gh-pages
               only: master
           requires:
             - lint
             - build
-
+  build_and_deploy:
+    jobs:
+      - deploy-website:
 jobs:
 
   lint:
