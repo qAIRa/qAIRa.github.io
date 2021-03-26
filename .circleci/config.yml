@@ -14,9 +14,6 @@ workflows:
           requires:
             - lint
             - build
-  build_and_deploy:
-    jobs:
-      - deploy-website:
 jobs:
 
   lint:
@@ -46,8 +43,9 @@ jobs:
           key: qAIRa-node-{{ checksum "package-lock.json" }}
 
       - persist_to_workspace:
-          root: ./
-          paths: build
+          root: .
+          paths:
+            - build/*
 
   deploy:
     docker:
