@@ -63,7 +63,7 @@ jobs:
       # deploy to production
       - add_ssh_keys:
          fingerprints:
-           - SHA256:fmWM2MZJkqiofkkcdp4V8ssvKX0qgfmfMCyp2ubGQ08
+           - 36:b2:f7:c5:51:69:52:9e:90:a7:c8:24:80:d7:13:b3
       - deploy:
           name: Deploy to GitHub Pages
           command: ./qAIRa.github.io/.circleci/deploy.sh
