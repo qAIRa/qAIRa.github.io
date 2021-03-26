@@ -34,17 +34,18 @@ jobs:
       - restore_cache:
           key: qAIRa-node-{{ checksum "package-lock.json" }}
       - run: npm install
-      - save_cache:
-          key: qAIRa-node-{{ checksum "package-lock.json" }}
-          paths:
-            - .cache
-            - public
       - run: npm run build
 
-      - persist_to_workspace:
-          root: .
+      - save_cache:
           paths:
-            - ./*
+            - node_modules
+            - .cache
+            - public
+          key: qAIRa-node-{{ checksum "package-lock.json" }}
+
+      - persist_to_workspace:
+          root: ./
+          paths: build
 
   deploy:
     docker:
