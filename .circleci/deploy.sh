@@ -12,7 +12,7 @@ ssh-keyscan github.com >> ~/.ssh/known_hosts
 
 # stage generated HTML for GitHub Pages
 git clone --quiet --branch=gh-pages $CIRCLE_REPOSITORY_URL $DEPLOY_DIR
-rsync --archive --recursive --verbose --remove-source-files $HOME/project/* $DEPLOY_DIR
+rsync --archive --recursive --verbose --remove-source-files $HOME/project/build/* $DEPLOY_DIR
 
 # git client setup
 cd $DEPLOY_DIR
