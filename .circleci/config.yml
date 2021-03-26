@@ -59,7 +59,7 @@ jobs:
 
       # checkout generated html
       - attach_workspace:
-          at: build
+          at: .
 
       # deploy to production
       - add_ssh_keys:
