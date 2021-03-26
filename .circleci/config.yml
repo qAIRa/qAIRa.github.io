@@ -10,6 +10,7 @@ workflows:
       - deploy:
           filters:
             branches:
+              ignore: gh-pages
               only: master
           requires:
             - lint
@@ -68,18 +69,3 @@ jobs:
       - deploy:
           name: Deploy to GitHub Pages
           command: ./qAIRa.github.io/.circleci/deploy.sh
-
-workflows:
-  version: 2.1
-  build:
-    jobs:
-      - build:
-          filters:
-            branches:
-              ignore: gh-pages
-      - deploy:
-          requires:
-            - build
-          filters:
-            branches:
-              only: master
