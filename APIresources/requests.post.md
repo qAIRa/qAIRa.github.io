@@ -4,4 +4,4 @@ title: POST Requests
 sidebar_label: POST Requests
 ---
 
-Not yeti.
+Currently working on protecting our POSTs requests.
