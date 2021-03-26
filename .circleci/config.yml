@@ -50,9 +50,6 @@ jobs:
     docker:
       - image: cibuilds/base:latest
     steps:
-       - add_ssh_keys:
-          fingerprints:
-            - SHA256:fmWM2MZJkqiofkkcdp4V8ssvKX0qgfmfMCyp2ubGQ08
       # deploy.sh dependencies
       - run: apk add rsync
 
@@ -65,5 +62,8 @@ jobs:
 
       # deploy to production
       - deploy:
+        - add_ssh_keys:
+           fingerprints:
+             - SHA256:fmWM2MZJkqiofkkcdp4V8ssvKX0qgfmfMCyp2ubGQ08
           name: Deploy to GitHub Pages
           command: ./qAIRa.github.io/.circleci/deploy.sh
