@@ -2,8 +2,8 @@
 # https://circleci.com/docs/2.0/configuration-reference
 version: 2.1
 
+workflows:
   main:
-    workflows:
     jobs:
       - lint
       - build
@@ -30,6 +30,7 @@ jobs:
       - image: cimg/node:lts
     steps:
       - checkout
+
       - restore_cache:
           key: qAIRa-node-{{ checksum "package-lock.json" }}
       - run: npm install
